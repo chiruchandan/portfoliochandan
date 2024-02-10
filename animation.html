@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .load{
+            height: 30px;
+            width: 30px;
+            border-radius: 50px;
+            background-color: blueviolet;
+            animation-name: load;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+
+        }
+        @keyframes load{
+            from{
+                width:0px
+            }
+            to{
+                width:100%
+            }
+        }
+        .load2{
+            height: 30px;
+            width: 30px;
+            border-radius: 50px;
+            background-color: blueviolet;
+            animation-name: load1;
+            animation-duration: 3s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+        @keyframes load1{
+            from{
+                height:0px
+            }
+            to{
+                height: 900px;
+            }
+        } */
+        .box{
+            top: 30px;
+            height: 300px;
+            width: 300px;
+            border-radius: 3px;
+            background-color: rgb(104, 165, 104);
+            box-shadow: 13px 3px 13px black;
+            border: 3px solid;
+            animation: move 7s ease alternate;
+            position: absolute;
+            transition: all;
+            animation-iteration-count: infinite ;
+            
+        }
+        @keyframes move{
+              /* from{
+                  left: 0px;
+              }
+              to{
+                left: 1400px;
+                background-color: greenyellow;
+                 border-radius: 50%;
+                transform: rotatey(360deg);
+                 rotate: 360deg; 
+                scale: 2;
+                box-shadow: 3px 5px 5px  grey;
+                top: 600px;
+              } */
+              0%{
+                top: 600px;
+                left: 0px;
+              } 
+              20%{
+                /* rotate: 25deg;
+                height: 100px;
+                background-color: rgb(154, 227, 227); */
+                top:0px;
+                left: 300px;
+              } 
+              40%{
+                /* rotate: 90deg;
+                border-radius: 50%;
+                background-color: rgb(236, 153, 153); */
+                top: 600px;
+                left: 600px;
+              }
+              60%{
+                 /* rotate: 90deg;
+                /*border-radius: 50%; */
+                /* background-color: rgb(57, 45, 47); */ 
+                top: 0px;
+                left: 900px;
+               }
+              100%{
+                top: 600px;
+                left:1200px ;
+              } 
+
+
+
+
+            }
+            
+    </style>
+</head>
+<body>
+    <!-- <div class="load"></div>
+    <div class="load2"></div> -->
+    <div class="box"></div>
+</body>
+</html>
